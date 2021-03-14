@@ -188,23 +188,21 @@ a.com span {
 	margin:0 0 12px;
 	padding:8px 16px 8px 24px;
 }
-ul.sb_menu, ul.ex_menu {
+ul.sb_menu {
 	margin:0;
 	padding:0 0 0 16px;
 	list-style:none;
 	color:#959595;
 }
-ul.sb_menu li, ul.ex_menu li {
+ul.sb_menu li{
 	margin:0;
 }
 ul.sb_menu li {
 	padding:4px 0;
 	width:220px;
 }
-ul.ex_menu li {
-	padding:4px 0;
-}
-ul.sb_menu li a, ul.ex_menu li a {
+
+ul.sb_menu li a {
 	color:#959595;
 	text-decoration:none;
 	margin-left:-16px;
@@ -251,8 +249,6 @@ ul.sb_menu li a:hover, ul.ex_menu li a:hover {
 	float:left;
 }
 
-.footer {
-}
 .footer_resize {
 	padding:12px 24px;
 	height: 30px;
