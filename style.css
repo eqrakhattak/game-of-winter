@@ -28,21 +28,21 @@ html, .main {
 h1 {
 	margin:0;
 	padding:24px 40px;
-	color:#fff;
+	color:#0C1622;
 	font:bold 46px/1.2em Arial, Helvetica, sans-serif;
 	letter-spacing:-3px;
 }
 h1 a, h1 a:hover {
-	color:#fff;
+	color:#ac2626;
 	text-decoration:none;
 }
 h1 span {
-	color:#40b5ff;
+	color:#5C988D;
 }
 h1 small {
 	display:block;
 	margin-top:-4px;
-	padding-left:104px;
+	padding-left:220px;
 	font:normal 12px/1.2em Arial, Helvetica, sans-serif;
 	letter-spacing:normal;
 	color:#fff;
@@ -95,18 +95,17 @@ a.com span {
 	padding:0;
 }
 .header {
-	width: 100%;
-	background-color: #5b1d1d
+	width:100%;
+	background-color: #0C1622;
+	background-size: cover;
+	background-image: url("images/cover.jpg");
 }
+
 .header_resize {
 	margin:0 auto;
 	padding:0;
 	width:100%;
-}
-
-.cover img{
-	width: 99%;
-	margin: 5px;
+	height: 250px;
 }
 
 .menu_nav {
@@ -114,8 +113,10 @@ a.com span {
 	padding:0 30px;
 	height:42px;
 	width: 85%;
-	background-color:#0C1622;
-	border:2px solid #97cbed;
+	background-color:rgba(12, 22, 34, 0.4);
+	border:2px solid #0C1622;
+	position: relative;
+	top: 85px;
 }
 .menu_nav ul {
 	list-style:none;
@@ -142,6 +143,12 @@ a.com span {
 	color:#fff;
 	background-color:#101B27;
 }
+
+.cover img{
+	width: 99%;
+	margin: 5px;
+}
+
 .content {
 	background-color: #101B27;
 }
@@ -159,9 +166,8 @@ a.com span {
 	width:73%;
 }
 .content .mainbar img {
-	border:1px solid #e3e5e2;
-	padding:4px;
-	background-color:#fff;
+	width:320px;
+	height:190px;
 }
 .content .mainbar img.fl {
 	margin:4px 16px 4px 0;
@@ -203,7 +209,8 @@ ul.sb_menu li a, ul.ex_menu li a {
 	text-decoration:none;
 	margin-left:-16px;
 	padding:4px 8px 4px 16px;
-	background:url(images/li.gif) no-repeat left center;
+	background:url(images/li.png) no-repeat left center;
+	background-size: 18px
 }
 ul.sb_menu li a:hover, ul.ex_menu li a:hover {
 	color:#2cadff;
@@ -296,37 +303,4 @@ ol li textarea {
 }
 ol li .send {
 	margin:16px 0 0 0;
-}
-.searchform {
-	float:right;
-	padding:0;
-}
-#formsearch {
-	margin:0;
-	height:36px;
-	padding:3px 0 0;
-	width:232px;
-}
-#formsearch span {
-	display:block;
-	margin:0;
-	padding:0;
-	float:left;
-	background:url(images/search.gif) no-repeat top left;
-}
-#formsearch input.editbox_search {
-	margin:0;
-	padding:11px 6px 10px;
-	float:left;
-	width:181px;
-	border:none;
-	background:none;
-	font:normal 12px/1.5em Arial, Helvetica, sans-serif;
-	color:#a8acb2;
-}
-#formsearch input.button_search {
-	margin:0;
-	padding:0;
-	border:none;
-	float:left;
 }
