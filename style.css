@@ -54,22 +54,12 @@ h2 {
 	color:#595959;
 }
 
-.mainbar h1{
-	font:bold 46px/1.2em Arial, Helvetica, sans-serif;
-	padding:25px 0 0 25px;
-	margin:8px 0;
-	color:#595959;
-}
-
 p {
 	margin:8px 0;
 	padding:0 0 8px 0;
 	font:normal 12px/1.8em Arial, Helvetica, sans-serif;
 }
 
-.mainbar p{
-	padding: 0 0 0 25px;
-}
 
 a {
 	color:#2cadff;
@@ -177,6 +167,16 @@ a.com span {
 	margin:0 0 12px;
 	padding:8px 24px 0 24px;
 }
+.mainbar h1{
+	font:bold 46px/1.2em Arial, Helvetica, sans-serif;
+	padding:25px 0 0 25px;
+	margin:8px 0;
+	color:#595959;
+}
+.mainbar p, ol, h3{
+	padding: 0 0 0 25px;
+}
+
 .content .sidebar {
 	background-color: #1A1F29;
 	margin: 5px;
