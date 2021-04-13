@@ -1,0 +1,6 @@
+You can download this file and play it on Unity.
+
+This contains game enviornment and one character i.e. Daenerys Targaryen. 
+Fuctionality:
+1. Right and left movement of the charater
+2. Turnback animation
