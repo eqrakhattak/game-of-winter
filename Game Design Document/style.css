@@ -54,6 +54,15 @@ h2 {
 	color:#595959;
 }
 
+h2>a{
+	color: #595959;
+	text-decoration: none;
+}
+
+h2>a:hover {
+	text-decoration: underline;
+}
+
 p {
 	margin:8px 0;
 	padding:0 0 8px 0;
@@ -65,17 +74,16 @@ a {
 	color:#2cadff;
 	text-decoration:underline;
 }
-p.spec {
-}
+
 p.infopost {
 	line-height:30px;
 }
-a.rm {
-}
+
 a.com {
 	text-decoration:none;
 	color:#959595;
 }
+
 a.com span {
 	color:#2cadff;
 	font-weight:bold;
