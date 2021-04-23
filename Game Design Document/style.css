@@ -163,18 +163,26 @@ a.com span {
 	float:left;
 	width:73%;
 }
+/*
 .content .mainbar img {
+	width: 20%;
+}*/
+.content .mainbar img.fl {
 	width:320px;
 	height:190px;
-}
-.content .mainbar img.fl {
 	margin:4px 16px 4px 0;
 	float:left;
 }
+
+.content .mainbar img.storyimg{
+	width: 100%;
+}
+
 .content .mainbar .article {
 	margin:0 0 12px;
 	padding:8px 24px 0 24px;
 }
+
 .mainbar h1{
 	font:bold 46px/1.2em Arial, Helvetica, sans-serif;
 	padding:25px 0 0 25px;
